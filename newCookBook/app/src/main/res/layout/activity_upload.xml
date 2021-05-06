@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ok"
+    tools:context=".Upload">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="342dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/uploadImage"
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+            <Button
+                android:id="@+id/btnChoose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="casual"
+                android:text="choose image"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+        <EditText
+            android:id="@+id/uploadName"
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="The dish name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/uploadGrocery"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:hint="Grocery List" />
+
+        <EditText
+            android:id="@+id/uploadPreparation"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:gravity="left"
+            android:hint="Preparation Method"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/uploadSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="casual"
+                android:onClick="saveAndUpload"
+                android:text="SAVE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/uploadBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="casual"
+                android:onClick="back"
+                android:text="BACK"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

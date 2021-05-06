@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">my cook book</string>
+
+    <string-array name="food">
+        <item>Meat and Fish</item>
+        <item>Milk</item>
+        <item>Baking</item>
+    </string-array>
+
+</resources>

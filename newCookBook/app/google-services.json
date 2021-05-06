@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1013864695266",
+    "firebase_url": "https://newcookbook-90804.firebaseio.com",
+    "project_id": "newcookbook-90804",
+    "storage_bucket": "newcookbook-90804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013864695266:android:d395385f223a8fc568e5bb",
+        "android_client_info": {
+          "package_name": "com.example.newcookbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013864695266-emmv4rj9adnmkfiuomhfjanuboljoceo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newcookbook",
+            "certificate_hash": "60835d0fa013ea449fb856c16523cf64bfbf4a2c"
+          }
+        },
+        {
+          "client_id": "1013864695266-lq6octafqchl86ee245ok857u9o3hbbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7COzlYFLH7i4ReyhdqsHJsERS8sHIFnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013864695266-lq6octafqchl86ee245ok857u9o3hbbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
